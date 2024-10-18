@@ -1,6 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
     theme: {
+        extend: {
+            colors: {
+                'gradient-start': '#73E0A9', // your gradient start color
+                'gradient-end': '#5B68DF',   // your gradient end color
+            },
+        },
         screens: {
             'sm': '640px',
             // => @media (min-width: 640px) { ... }
@@ -22,7 +28,7 @@ module.exports = {
 
             '350sz': '350px',
             // => @media (min-width: 350px) { ... }
-            
+
             '375sz': '375px',
             // => @media (min-width: 375px) { ... }
 

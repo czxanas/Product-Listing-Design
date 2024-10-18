@@ -2,8 +2,7 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: [// '@nuxtjs/tailwindcss', 
-  '@vueuse/nuxt', '@nuxtjs/tailwindcss'],
+  modules: ['@vueuse/nuxt', '@nuxtjs/tailwindcss', '@nuxt/image', '@nuxt/fonts'],
   app: {
     head: {
       htmlAttrs: {
