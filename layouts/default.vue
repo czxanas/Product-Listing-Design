@@ -19,7 +19,7 @@
 
 <style>
 /* Your styles here */
-* {
+:root {
     font-family: Poppins;
 }
 </style>

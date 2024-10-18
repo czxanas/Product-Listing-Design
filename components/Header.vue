@@ -6,7 +6,7 @@
 <template>
     <!-- Your template code here -->
     <header class="fixed top-0 left-1/2 -translate-x-1/2 z-50 flex items-center justify-between w-full px-10 py-8 max-w-[1440px]">
-        <h1 class="text-3xl font-semibold text-black">CHILLED GRAPE</h1>
+        <h1 class="text-3xl text-black font-[900] ">CHILLED GRAPE</h1>
 
         <nav class="flex items-center gap-20">
             <ul class="flex gap-10 font-medium">
