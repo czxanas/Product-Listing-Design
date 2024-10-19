@@ -31,7 +31,7 @@
         </div>
 
         <!-- Atomic Wavers -->
-        <div class="absolute max-w-[300px] opacity-15 top-[55%] left-0 -translate-x-[100%] -rotate-[180deg]">
+        <div class="absolute max-w-[300px] opacity-10 top-[55%] left-0 -translate-x-[100%] -rotate-[220deg]">
             <AtomicWaver />
         </div>
 
