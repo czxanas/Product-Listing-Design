@@ -6,8 +6,6 @@
 <template>
     <!-- Your template code here -->
     <div class="relative">
-        <div class="bg-black/70 mb-[100px]" />
-
         <Container>
             <Hero />
         </Container>
