@@ -3,8 +3,9 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'gradient-start': '#73E0A9', // your gradient start color
-                'gradient-end': '#5B68DF',   // your gradient end color
+                'gradient-start': '#73E0A9', // our gradient start color
+                'gradient-end': '#5B68DF',   // our gradient end color
+                'secondary': '#5C6DDE' // our load more color
             },
         },
         screens: {
