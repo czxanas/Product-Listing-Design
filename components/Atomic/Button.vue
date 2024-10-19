@@ -11,7 +11,7 @@ const buttonSizes = ref<{}>({
 
 <template>
     <!-- Your template code here -->
-    <button type="button" class="button h-fit flex items-center rounded-[100px] justify-center cursor-pointer font-medium bg-gradient-to-r from-gradient-start to-gradient-end text-white"
+    <button type="button" class="button h-fit w-fit flex items-center rounded-[100px] justify-center cursor-pointer font-medium bg-gradient-to-r from-gradient-start to-gradient-end text-white"
         :class="buttonSizes[props.size]">
         <span>{{ props.text }}</span>
     </button>
