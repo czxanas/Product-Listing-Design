@@ -12,16 +12,20 @@ const url = useRequestURL()
                     dolor sit amet, consectetur
                     adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit
                     amet, consectetur adipiscing elit.</p>
-                <AtomicButton size="small" text="Read More" />
+                <NuxtLink to="/">
+                    <AtomicButton size="small" text="Read More" />
+                </NuxtLink>
             </div>
         </div>
 
         <div class="relative col-span-1 max-lg:col-span-2">
-            <div class="absolute -translate-x-1/2 md:-translate-y-[20%] top-1/2 left-1/2 w-[70%] max-md:w-[75vw] duration-300">
+            <div
+                class="absolute -translate-x-1/2 md:-translate-y-[20%] top-1/2 left-1/2 w-[70%] max-md:w-[75vw] duration-300">
                 <AtomicWaver />
             </div>
             <div class="relative flex items-center justify-center">
-                <NuxtImg width="454" height="584" class="max-h-[500px] object-contain" :src="`${url.origin}/images/Flower.webp`" alt="Flower picture." />
+                <NuxtImg width="454" height="584" class="max-h-[500px] object-contain"
+                    :src="`${url.origin}/images/Flower.webp`" alt="Flower picture." />
             </div>
         </div>
     </section>

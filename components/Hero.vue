@@ -6,7 +6,9 @@
                 <span>DOLOR SIT AMET.</span>
             </h2>
 
-            <AtomicButton size="large" text="Read More" />
+            <NuxtLink to="/">
+                <AtomicButton size="large" text="Read More" />
+            </NuxtLink>
         </div>
 
         <!-- ======================================= ATOMIC - ABSOLUTE ======================================= -->

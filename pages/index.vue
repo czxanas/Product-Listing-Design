@@ -14,18 +14,18 @@ useSeoMeta({
             <Hero />
         </Container>
 
-        <div class="mb-[164px]" />
+        <div class="mb-[120px]" />
         
         <Container>
             <Description />
         </Container>
         
-        <div class="mb-[200px]" />
+        <div class="mb-[160px]" />
 
         <Container>
             <Products />
         </Container>
 
-        <div class="mb-[600px]" />
+        <div class="mb-[450px]" />
     </div>
 </template>

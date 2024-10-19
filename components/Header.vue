@@ -1,4 +1,7 @@
 <script setup lang='ts'>
+// Navigation Links - to not repeat my code
+const navLinks = ref<string[]>(['Home', 'About', 'Blog', 'Pricing'])
+
 // Mobile menu state and dropdown meny's ref
 const isMenuOpen = ref(false)
 const dropdownMenu = ref(null)
@@ -19,18 +22,21 @@ onClickOutside(dropdownMenu, event => {
     <header
         class="fixed top-0 left-1/2 -translate-x-1/2 z-50 flex items-center justify-between w-full py-8 max-w-[1440px]">
         <Container class="flex items-center justify-between w-full">
-            <h1 class="text-3xl text-white font-[900] "
-                style="-webkit-text-stroke-width: .75px; -webkit-text-stroke-color: #000">CHILLED GRAPE</h1>
+            <h1 class="text-3xl text-white font-[900] cursor-pointer">
+                <NuxtLink to="/" style="-webkit-text-stroke-width: .75px; -webkit-text-stroke-color: #000">CHILLED GRAPE
+                </NuxtLink>
+            </h1>
 
             <nav class="items-center hidden gap-20 lg:flex">
                 <ul class="flex gap-10 font-medium">
-                    <li class="cursor-pointer">Home</li>
-                    <li class="cursor-pointer">About</li>
-                    <li class="cursor-pointer">Blog</li>
-                    <li class="cursor-pointer">Pricing</li>
+                    <li v-for="(link, i) in navLinks" :key="i">
+                        <NuxtLink to="/">{{ link }}</NuxtLink>
+                    </li>
                 </ul>
 
-                <AtomicButton :size="`small`" :text="`Login`" />
+                <NuxtLink to="/">
+                    <AtomicButton :size="`small`" :text="`Login`" />
+                </NuxtLink>
             </nav>
 
             <menu @click="toggleMenu" class="flex flex-col gap-[3.5px] lg:hidden cursor-pointer">
@@ -43,12 +49,13 @@ onClickOutside(dropdownMenu, event => {
             <nav v-if="isMenuOpen" ref="dropdownMenu"
                 class="fixed z-50 flex flex-col items-center justify-center bg-white top-20 right-5 rounded-[30px] px-8 py-5 shadow-xl border border-black/50 lg:hidden">
                 <ul class="flex flex-col gap-6 text-lg font-medium text-black">
-                    <li @click="toggleMenu" class="cursor-pointer">Home</li>
-                    <li @click="toggleMenu" class="cursor-pointer">About</li>
-                    <li @click="toggleMenu" class="cursor-pointer">Blog</li>
-                    <li @click="toggleMenu" class="cursor-pointer">Pricing</li>
+                    <li @click="toggleMenu" v-for="(link, i) in navLinks" :key="i">
+                        <NuxtLink to="/">{{ link }}</NuxtLink>
+                    </li>
                 </ul>
-                <AtomicButton :size="`small`" :text="`Login`" @click="toggleMenu" class="mt-8" />
+                <NuxtLink to="/">
+                    <AtomicButton :size="`small`" :text="`Login`" @click="toggleMenu" class="mt-8" />
+                </NuxtLink>
             </nav>
         </transition>
     </header>

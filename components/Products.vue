@@ -28,7 +28,7 @@ const loadMore = () => {
     <section class="relative pt-[140px]">
         <div class="grid grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-x-10 gap-y-16">
             <!-- Display products -->
-            <div v-for="(product, i) in products" :key="i"
+            <NuxtLink v-for="(product, i) in products" :key="i" to="/"
                 class="col-span-1 overflow-hidden rounded-[30px] shadow-xl shadow-black/30">
                 <div class="w-full">
                     <div class="w-full aspect-[12/10] rounded-[30px] overflow-hidden shadow-xl shadow-black/30">
@@ -39,7 +39,7 @@ const loadMore = () => {
                         <div class="uppercase font-[700] text-2xl text-gray-500">£{{ product.price }}</div>
                     </div>
                 </div>
-            </div>
+            </NuxtLink>
         </div>
         <!-- Load more button -->
         <div v-if="loadedCount < allProducts.length" class="mt-16">
