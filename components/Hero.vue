@@ -5,7 +5,7 @@
 
 <template>
     <!-- Your template code here -->
-     <section>HERO SECTION</section>
+     <section class="h-[200vh]">HERO SECTION</section>
 </template>
 
 

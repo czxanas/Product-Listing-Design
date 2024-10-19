@@ -6,7 +6,7 @@
 <template>
     <!-- Your template code here -->
     <div class="relative">
-        <div class="bg-back mb-[100px]" />
+        <div class="bg-black/70 mb-[100px]" />
 
         <Container>
             <Hero />
