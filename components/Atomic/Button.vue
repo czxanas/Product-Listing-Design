@@ -3,7 +3,7 @@
 const props = defineProps(['size', 'text'])
 
 const buttonSizes = ref<{}>({
-    small: 'px-12 py-1.5',
+    small: 'px-12 py-2',
     large: 'px-12 py-3'
 })
 </script>
