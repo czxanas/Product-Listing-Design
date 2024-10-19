@@ -32,7 +32,7 @@ const loadMore = () => {
                 class="col-span-1 overflow-hidden rounded-[30px] shadow-xl shadow-black/30">
                 <div class="w-full">
                     <div class="w-full aspect-[12/10] rounded-[30px] overflow-hidden shadow-xl shadow-black/30">
-                        <NuxtImg class="object-cover w-full h-full" :src="product.image" alt="Product image." />
+                        <img class="object-cover w-full h-full" :src="product.image" alt="Product image." />
                     </div>
                     <div class="flex flex-col px-4 py-6 mt-4">
                         <h4 class="uppercase font-[700] text-2xl">{{ product.product_name }}</h4>
@@ -40,10 +40,10 @@ const loadMore = () => {
                     </div>
                 </div>
             </div>
-            <!-- Load more button -->
-            <div v-if="loadedCount < allProducts.length" class="col-span-3">
-                <button @click="loadMore" class="uppercase font-[700] text-2xl text-secondary">Load More</button>
-            </div>
+        </div>
+        <!-- Load more button -->
+        <div v-if="loadedCount < allProducts.length" class="mt-16">
+            <button @click="loadMore" class="uppercase font-[700] text-2xl text-secondary">Load More</button>
         </div>
     </section>
 </template>
