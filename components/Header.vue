@@ -8,7 +8,7 @@
     <header
         class="fixed top-0 left-1/2 -translate-x-1/2 z-50 flex items-center justify-between w-full py-8 max-w-[1440px]">
         <Container class="flex items-center justify-between w-full">
-            <h1 class="text-3xl text-white font-[900] ">CHILLED GRAPE</h1>
+            <h1 class="text-3xl text-white font-[900] " style="-webkit-text-stroke-width: .75px; -webkit-text-stroke-color: #000">CHILLED GRAPE</h1>
 
             <nav class="flex items-center gap-20">
                 <ul class="flex gap-10 font-medium">
