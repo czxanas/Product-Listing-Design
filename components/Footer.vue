@@ -59,37 +59,37 @@
                             <div class="col-span-1 ">
                                 <div
                                     class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
-                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg" />
+                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg"  alt="Telegram icon"/>
                                 </div>
                             </div>
                             <div class="col-span-1 ">
                                 <div
                                     class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
-                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg" />
+                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg"  alt="Telegram icon"/>
                                 </div>
                             </div>
                             <div class="col-span-1 ">
                                 <div
                                     class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
-                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg" />
+                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg"  alt="Telegram icon"/>
                                 </div>
                             </div>
                             <div class="col-span-1 ">
                                 <div
                                     class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
-                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg" />
+                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg"  alt="Telegram icon"/>
                                 </div>
                             </div>
                             <div class="col-span-1 ">
                                 <div
                                     class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
-                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg" />
+                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg"  alt="Telegram icon"/>
                                 </div>
                             </div>
                             <div class="col-span-1 ">
                                 <div
                                     class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
-                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg" />
+                                    <NuxtImg width="22" height="19" src="/svg/telegram.svg"  alt="Telegram icon"/>
                                 </div>
                             </div>
                         </div>

@@ -23,7 +23,7 @@ const url = useRequestURL()
                 <AtomicWaver />
             </div>
             <div class="relative flex items-center justify-center">
-                <NuxtImg width="454" height="584" class="max-h-[500px] object-contain" :src="`${url.origin}/images/Flower.webp`" />
+                <NuxtImg width="454" height="584" class="max-h-[500px] object-contain" :src="`${url.origin}/images/Flower.webp`" alt="Flower picture." />
             </div>
         </div>
     </section>
