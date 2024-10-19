@@ -11,7 +11,7 @@ const socialMedias = ref<string[]>(['telegram', 'x', 'youtube', 'facebook', 'ins
             <h4 class="text-transparent bg-gradient-to-r from-gradient-start to-gradient-end bg-clip-text">
                 Follow Us</h4>
 
-            <div class="grid grid-cols-3 gap-x-6 gap-y-4 max-md:grid-cols-2">
+            <div class="grid grid-cols-3 gap-x-6 gap-y-4 max-md:grid-cols-2 max-sm:grid-cols-3">
                 <div v-for="(social, i) in socialMedias" :key="i" class="col-span-1 ">
                     <NuxtLink to="/"
                         class="bg-gradient-to-r from-gradient-start to-gradient-end text-white w-[45px] aspect-square rounded-lg flex items-center overflow-hidden justify-center">
