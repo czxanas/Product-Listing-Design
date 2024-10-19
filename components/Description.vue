@@ -1,11 +1,9 @@
 <script setup lang='ts'>
-// Your JavaScript/TypeScript code here 
 const url = useRequestURL()
 </script>
 
 
 <template>
-    <!-- Your template code here -->
     <section class="relative grid grid-cols-2 gap-y-24 gap-x-14">
         <div class="col-span-1 max-lg:col-span-2">
             <div class="flex flex-col justify-center h-full gap-9">
@@ -28,8 +26,3 @@ const url = useRequestURL()
         </div>
     </section>
 </template>
-
-
-<style scoped>
-/* Your styles here */
-</style>

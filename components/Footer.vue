@@ -1,10 +1,4 @@
-<script setup lang='ts'>
-// Your JavaScript/TypeScript code here 
-</script>
-
-
 <template>
-    <!-- Your template code here -->
     <footer class="relative z-20 pb-16">
         <Container class="relative">
             <div class="absolute -top-[250px] -left-[250px] rotate-[225deg] -z-10"
@@ -99,8 +93,3 @@
         </Container>
     </footer>
 </template>
-
-
-<style scoped>
-/* Your styles here */
-</style>

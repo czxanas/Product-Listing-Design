@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-// Mobile menu state
+// Mobile menu state and dropdown meny's ref
 const isMenuOpen = ref(false)
 const dropdownMenu = ref(null)
 
@@ -8,6 +8,7 @@ const toggleMenu = () => {
     isMenuOpen.value = !isMenuOpen.value
 }
 
+// use onClickOutside from vueuse to manage if the user click outside the target (in my case the list component)
 onClickOutside(dropdownMenu, event => {
     if (isMenuOpen.value && dropdownMenu.value && !dropdownMenu.value.contains(event.target as Node)) isMenuOpen.value = !isMenuOpen.value
 })
@@ -15,7 +16,6 @@ onClickOutside(dropdownMenu, event => {
 
 
 <template>
-    <!-- Your template code here -->
     <header
         class="fixed top-0 left-1/2 -translate-x-1/2 z-50 flex items-center justify-between w-full py-8 max-w-[1440px]">
         <Container class="flex items-center justify-between w-full">

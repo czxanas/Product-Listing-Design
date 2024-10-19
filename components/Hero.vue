@@ -1,10 +1,4 @@
-<script setup lang='ts'>
-// Your JavaScript/TypeScript code here 
-</script>
-
-
 <template>
-    <!-- Your template code here -->
     <section class="relative w-full min-h-[100dvh] flex items-center">
         <div class="relative z-20 flex flex-col gap-10 pl-0 md:pl-[80px] duration-300">
             <h2 class="flex flex-col text-[64px] font-[900] leading-[1.1]">
@@ -46,8 +40,3 @@
         </div>
     </section>
 </template>
-
-
-<style scoped>
-/* Your styles here */
-</style>
